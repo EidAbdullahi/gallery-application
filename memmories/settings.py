@@ -37,7 +37,7 @@ SECRET_KEY = '^2*x1a20q1%urdghksl-1(n=+1*al&eh712!s-&x9r)iur_r*j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['memmoriesapp.herokuapp.com', 127.0.0.1:8000]
+ALLOWED_HOSTS = ['eid-gallery.herokuapp.com', 127.0.0.1:8000]
 
 
 # Application definition
