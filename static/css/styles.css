@@ -54,8 +54,8 @@
   }
   
   .single_portfolio_text:hover .portfolio_images_overlay{
-    top:6%;
-    left: 6%;
+    top:5%;
+    left: 5%;
   }
   
   .portfolio_images_overlay{
