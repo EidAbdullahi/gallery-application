@@ -45,11 +45,11 @@ class Image(models.Model):
     '''
     image_name = models.CharField(max_length=30)
     image_desc = models.TextField()
-    # photo = CloudinaryField('image')
+    # photo = models.ImageField('image')
     location = models.ForeignKey(Location, on_delete=models.CASCADE)
     category = models.ManyToManyField(category)
     post_date = models.DateTimeField(auto_now_add=True)
-    
+    photo = models.ImageField(upload_to = 'photos/')
 
     def __str__(self):
         '''
