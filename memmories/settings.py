@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'photos.apps.PhotosConfig',
     'bootstrap3',
     
+    
 ]
 
 MIDDLEWARE = [

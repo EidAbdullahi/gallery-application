@@ -18,7 +18,7 @@
   
 
    .navbar-inverse {
-     background-color: black;
+     background-color:black;
    }
 
    .main-container {
@@ -123,4 +123,10 @@
 
   .navbar-nav>li>.dropdown-menu {
     background-color: black !important;
+  }
+  h3{
+    color: black;
+  }
+  h5{
+    color: blue;
   }
