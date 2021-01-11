@@ -1,5 +1,5 @@
 # Title
-Eid_Gallery
+Gallery-Application
 
 # Description
 gallery-application(Eid_Gallery) is a personal gallery application that displays my photos for other people to see 
