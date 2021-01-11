@@ -37,7 +37,7 @@ SECRET_KEY = '^2*x1a20q1%urdghksl-1(n=+1*al&eh712!s-&x9r)iur_r*j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['eid-gallery.herokuapp.com', 127.0.0.1:8000]
+ALLOWED_HOSTS = ['app.herokuapp.com']
 
 
 # Application definition
@@ -92,14 +92,7 @@ WSGI_APPLICATION = 'memmories.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'eid',
-#         'USER': 'access',
-#     'PASSWORD':'Access',
-#     }
-# }
+
 MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
@@ -177,7 +170,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     #'/var/www/static/',
 ]
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'staticfiles')
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
 
 cloudinary.config( 
   cloud_name = "duwcyaitg", 
