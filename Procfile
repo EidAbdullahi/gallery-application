@@ -1,2 +1,2 @@
-web: gunicorn memmories.wsgi 
+web: gunicorn memmories.wsgi --log-file -
 
